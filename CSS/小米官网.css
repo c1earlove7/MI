@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+text{
+    text-decoration: none;
+}
+.picture_head{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: auto 120px;
+}
+
+.contain{
+    width: auto;
+    height: 40px;
+    background-color: rgb(51, 51, 51);
+}
+.head_menu{
+    margin-top:120px;
+    width: 1226px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #b0b0b0;
+
+}
+.navigater,.userLogin{
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    font-size: 12px;
+}
+.navigater a,.userLogin a{
+    display: inline-block;
+    color: #b0b0b0;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+}
+.spa{
+    height: 16px;
+    color: #424242;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.navigater a:hover,.userLogin a:hover{
+    color: white;
+}
+.navigater a:link .navigater a:hover{
+    color: white;
+}
+
+.bar{
+    display: inline-block;
+    float: right;
+    height: 40px;
+    margin-left: 15px;
+}
+.bar img{
+    border: 0;
+    height: 40px;
+}
+.bar a:hover{
+    color: #ff6700;
+}
+.userLogin{
+    float: right;
+}
+
+
+.body{
+    width: 1226px;
+    margin: 0 auto;
+}
+.container{
+    width: 1226px;
+    height: 100px;
+
+}
+.logo{
+    height: 55px;
+    width: 62px;
+    margin-top: 22px;
+    float: left;
+}
+.logo a{
+    height: 55px;
+    width: 55px;
+}
+
+.logo a img{
+    height: 55px;
+    width: 55px;
+}
+
+.container-menu{
+    height: 100px;
+    width: 850px;
+    float: left;
+
+}
+.daohang{
+    margin-top: 35px;
+    margin-left: 188px;
+}
+.daohanglan{
+    display: block;
+    float: left;
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+    font-size: medium;
+    padding-left: 15px;
+}
+.daohanglan:hover{
+    color: #ff6700;
+}
+.container-search{
+    height: 50px;
+    width: 296px;
+    margin-top: 25px;
+    float: right;
+
+}
+.text1{
+    height: 44px;
+    width: 240px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.submit1{
+    height: 48px;
+    width: 48px;
+    margin: 0;
+    float: left;
+    background-color: white;
+}
+.submit1:hover{
+    background-color: #ff6700;
+}
+
+.homehero{
+    height: 670px;
+    width: 1226px;
+}
+
+.home-picture{
+    position:absolute;
+    z-index: 1;
+    height: 460px;
+    width: 1226px;
+    margin-bottom: 14px;
+    background-color: #b0b0b0;
+}
+.cebian{
+    position: absolute;
+    z-index: 2;
+    height: 460px;
+    width: 200px;
+    background-color: rgba(145, 156, 158,0.5);
+    clear: both;
+}
+.list{
+    width: 100%;
+    height: 100%;
+    border-top: 40px;
+    border-bottom: 40px;
+}
+.cebianList{
+    width: 100%;
+    height: 40px;
+    color: wheat;
+    line-height: 40px;
+}
+.cebianList:hover{
+    background-color: #ff6700;
+}
+.menu1{
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+}
+.span7{
+    float: right;
+    padding-right: 20px;
+}
+.home-sub{
+    padding-top: 480px;
+    float: bottom;
+    height: 170px;
+    width: 1226px;
+    margin-bottom: 12px;
+}
+.sub-left{
+    height: 170px;
+    width: 234px;
+    float: left;
+}
+.subIcon{
+    display: block;
+    float: left;
+    height: 83px;
+    width:76px;
+    background-color: #b0b0b0;
+    border: 1px solid black;
+}
+.sub-right{
+    margin-left: 14px;
+    width: 978px;
+    height: 170px;
+    float: left;
+}
+.span1_1,.span1_2,.span1_3{
+    width: 316px;
+    height: 170px;
+    float: left;
+    background-color: #b0b0b0;
+}
+.span1_2,.span1_3{
+    margin-left: 15px;
+}
+
+.bgcolor{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    margin: 0 auto;
+}
+.main{
+    width:1226px ;
+    margin: 0 auto;
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+.flashsale{
+    height: 398px;
+    width: 1226px;
+    background-color: #b0b0b0;
+}
+.guanggao{
+    height: 120px;
+    width: 1226px;
+    margin: 22px 0px;
+    background-color: #b0b0b0;
+}
+.box{
+    height: 686px;
+    width: 1226px;
+}
+.box_hd{
+    width: 1226px;
+    height: 58px;
+}
+.box_body{
+    height: 628px;
+    width: 1226px;
+}
+.box_hd h2{
+    display:block;
+    height: 58px;
+    float: left;
+    line-height: 58px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(69, 60, 63);
+}
+.more{
+    height:58px;
+    width: 92px;
+    float: right;
+}
+
+.more a{
+    display: inline-block;
+    line-height: 58px;
+    text-decoration: none;
+    color: rgb(69, 60, 63);
+    float: right;
+}
+
+.more a i{
+    display:block;
+    height: 20px;
+    width: 20px;
+    margin-top: 19px;
+    margin-left: 5px;
+    float: right;
+}
+
+.span2{
+    height: 614px;
+    width: 234px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.span3{
+    height: 614px;
+    width: 992px;
+    float: left;
+}
+
+.span3 li{
+    display: block;
+    width:234px;
+    height: 260px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-decoration: none;
+}
+.box-goods a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+.goods-picture{
+    margin:0px 37px 18px 37px;
+}
+.goods-picture h3{
+    height: 21px;
+    margin-bottom: 2px;
+    line-height: 16px;
+    color: rgb(51, 51, 51);
+    font-weight: lighter;
+}
+.goods-picture p{
+    height: 18px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.goods-picture p span{
+    height: 21px;
+    text-align: center;
+    color: #ff6700;
+}
+
+.span4{
+    height: 614px;
+    width: 234px;
+    float: left;
+}
+.span5{
+    height: 300px;
+    width: 234px;
+    float: left;
+    background-color: #b0b0b0;
+}
+.span6{
+    margin-top: 14px;
+    height: 300px;
+    width: 234px;
+    float: left;
+    background-color: #b0b0b0;
+}
+.more1{
+    height:58px;
+    float: right;
+}
+.hotport{
+    display: block;
+    color: rgb(69, 60, 63);
+    height:58px;
+    margin-left: 20px;
+    float: left;
+    text-decoration: none;
+    line-height: 58px;
+    font-size: 18px;
+}
+.hotport:hover{
+    text-decoration: underline;
+    color: #ff6700;
+}
+.END_box_body{
+    height: 350px;
+    margin-bottom: 5px;
+}
+.video,.video1{
+    display: block;
+    height: 300px;
+    width: 300px;
+    background-color: #333333;
+    float: left;
+}
+.video1{
+    margin-left: 8px;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        var array1 = new Array(7);
+        console.log(array1.length);
+        var array2 = new Array(100,'a',true);
+        console.log(array2.length);// 3
+        
+        // 数组长度可变
+        var array = new Array();
+        array[0] = '232';
+        console.log(array);  // ["232"]
+        console.log(array.length); // 1
+        array[1] = true;
+        console.log(array); //["232","true"] array.length 2
+        
+        array.push('zhangsan'); // 再加一个 从最后一个下标
+        array.push(45);
+        array.push(false);// [232","ture","张三"，45，false]
+        console.log(array.pop());// false  把下标最后一个拿走 之后打印它
+        console.log(array.pop());// 45
+        console.log(array.pop());// 张三
+        console.log(array)
+    </script>
+</head>
+<body>
+
+</body>
+</html>

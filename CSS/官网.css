@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header,.footer,.center{
+    margin: 0 auto;
+    width: 970px;
+}
+.header{
+    height: 103px;
+}
+.center{
+    margin-top: 10px;
+    height: 435px;
+}
+.footer{
+    margin-top: 10px;
+    height: 35px;
+}
+.logo{
+    height: 103px;
+    width: 277px;
+    float: left;
+    background-color: rgb(255, 0, 0);
+}
+.nav-lan{
+    width: 679px;
+    height: 103px;
+    float: right;
+}
+.language{
+    height: 49px;
+    width: 137px;
+    float: right;
+    background-color: rgb(0, 255, 0);
+}
+.navigetor{
+    height: 46px;
+    width: 679px;
+    float: right;
+    background-color: rgb(0, 255, 0);
+    margin-top: 8px;
+}
+
+.center_left{
+    float: left;
+    height: 435px;
+    width: 310px;
+    background-color: yellow;
+}
+.center_right{
+    float: left;
+    margin-left: 10px;
+    height: 435px;
+    width: 650px;
+}
+.center_right{
+    float: right;
+    height: 400px;
+    width: 650px;
+}
+.center_right_bottom{
+    margin-top: 10px;
+    float: right;
+    height: 25px;
+    width: 650px;
+    background-color: green;
+}
+.center_right_bottom1,.center_right_middle,.center_right_top{
+    width: 450px;
+    background-color: rgb(51, 153, 255);
+}
+.center_right_top{
+    height: 240px;
+}
+.center_right_middle{
+    height: 110px;
+    margin-top: 10px;
+}
+.center_right_bottom1{
+    height: 30px;
+    margin-top: 10px;
+}
+.center_right_right{
+    float: right;
+    height: 400px;
+    width: 190px;
+    background-color:rgb(204, 51, 153);
+}
+.footer{
+    height: 35px;
+    width: 970px;
+    background-color: rgb(0, 0, 153);
+}
+body{
+    color: blue;
+    text-align: center;
+}
